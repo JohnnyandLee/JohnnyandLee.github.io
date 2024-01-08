@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Johnny Lee Blog</title>
+    <link>https://johnnyandlee.github.io/</link>
+    <description>Recent content on Johnny Lee Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jan 2024 16:27:00 -0800</lastBuildDate>
+    <atom:link href="https://johnnyandlee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first article</title>
+      <link>https://johnnyandlee.github.io/blog/test/</link>
+      <pubDate>Fri, 05 Jan 2024 16:27:00 -0800</pubDate>
+      <guid>https://johnnyandlee.github.io/blog/test/</guid>
+      <description>Hello World&#xA;I am Johnny&#xA;Biggest title Second big title smallest title I am Johnny.</description>
+    </item>
+    <item>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://johnnyandlee.github.io/blog/post-13/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <guid>https://johnnyandlee.github.io/blog/post-13/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+    </item>
+  </channel>
+</rss>

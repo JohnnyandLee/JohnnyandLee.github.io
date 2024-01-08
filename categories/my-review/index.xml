@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My review on Johnny Lee Blog</title>
+    <link>https://johnnyandlee.github.io/categories/my-review/</link>
+    <description>Recent content in My review on Johnny Lee Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jan 2024 16:27:00 -0800</lastBuildDate>
+    <atom:link href="https://johnnyandlee.github.io/categories/my-review/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first article</title>
+      <link>https://johnnyandlee.github.io/blog/test/</link>
+      <pubDate>Fri, 05 Jan 2024 16:27:00 -0800</pubDate>
+      <guid>https://johnnyandlee.github.io/blog/test/</guid>
+      <description>Hello World&#xA;I am Johnny&#xA;Biggest title Second big title smallest title I am Johnny.</description>
+    </item>
+  </channel>
+</rss>
