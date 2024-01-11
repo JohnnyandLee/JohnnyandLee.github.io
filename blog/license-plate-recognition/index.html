@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Johnny Lee Blog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This project is implemented in Java to create a model that recognizes license plates in parallel.">
+  <meta name="author" content="Johnny Lee">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.121.1">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://johnnyandlee.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://johnnyandlee.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://johnnyandlee.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://johnnyandlee.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://johnnyandlee.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://johnnyandlee.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://johnnyandlee.github.io/images/favicon.png " type="image/x-icon">
+
+  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P88PMY74CF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P88PMY74CF');
+</script>
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://johnnyandlee.github.io"><img class="img-fluid"
+          src="https://johnnyandlee.github.io/images/johnny.png" alt="Johnny Lee Blog"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/JohnnyandLee"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/kuan-te-lee-65a1b2226/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://johnnyandlee.github.io"><img class="img-fluid"
+            src="https://johnnyandlee.github.io/images/johnny.png" alt="Johnny Lee Blog"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://johnnyandlee.github.io/about/">About</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://johnnyandlee.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/java"
+          class="text-primary">Java</a>
+        
+        <h2>License plate recognition with parallel computing</h2>
+        <div class="mb-3 post-meta">
+          <span>By Johnny Lee</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>10 January 2024</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <p>This project is implemented in Java to create a model that recognizes license plates in parallel.</p>
+<p><a href="https://github.com/JohnnyandLee/License_Plates_Recognition">Click here to view the code on GitHub</a></p>
+<h2 id="objective">Objective</h2>
+<ul>
+<li>
+<p>Train our model by offering the capital English character and digits in <strong>Penitentiary Gothic</strong> font.</p>
+</li>
+<li>
+<p>Offer the images of license plates in California into our model to recognize license plates&rsquo; number and turn then into text correctly.</p>
+</li>
+<li>
+<p>Use multi-threads to accelerate the process.</p>
+</li>
+<li>
+<p>Report the performance profile to identify the bottleneck of the code and evaluate how multi-threads in this case can help us to speed up.</p>
+</li>
+</ul>
+<h2 id="description">Description</h2>
+<h3 id="workflow">Workflow</h3>
+<p><img src="/images/Flowchart.png" alt=""></p>
+<h3 id="step-1-training-data">Step 1: Training Data</h3>
+<p><img src="/images/demo1.png" alt=""></p>
+<ol>
+<li>
+<p>Feed our model with 4 images containing A-Z and 0-9 in <strong>Penitentiary Gothic</strong> font.</p>
+</li>
+<li>
+<p>Convert them to grayscale.</p>
+</li>
+<li>
+<p>Resize them to 20 x 43 pixels.</p>
+</li>
+<li>
+<p>Make the character and digit as the key, and 1D integer array that stores the grayscale pixel value as a value.</p>
+<p>[255, 255, 64, 27, 128, &hellip;., 0] length: 860</p>
+</li>
+<li>
+<p>Append hard-coded character data to training Data to improve accuracy.</p>
+</li>
+</ol>
+<h3 id="step-2-test-data">Step 2: Test Data</h3>
+<p><img src="/images/demo2.png" alt=""></p>
+<ol>
+<li>
+<p>Load license plate images to trained model.</p>
+</li>
+<li>
+<p>Crop out top and bottom margins.</p>
+</li>
+<li>
+<p>Use edge detection to separate each character and digit.</p>
+</li>
+<li>
+<p>Calculate grayscale value of each character and digit in a 1D integer array.</p>
+<p>[226, 240, 65, 29, 124, &hellip;., 0] length: 860</p>
+</li>
+<li>
+<p>Use 1NN method to find the nearest neighbor as the output character or digit.</p>
+</li>
+<li>
+<p>Compare the output and the label into a file.</p>
+</li>
+</ol>
+<h3 id="step-3-multi-threading-speed-up">Step 3: Multi-threading speed up</h3>
+<ol>
+<li>
+<p>Incorporate multi threads method to train our models with data.</p>
+</li>
+<li>
+<p>Recognize abundant of license plate images simultaneously.</p>
+</li>
+<li>
+<p>Report the performance profile to identify the bottle neck of the code and evaluate how multi-threads in this case can help us to speed up.</p>
+</li>
+</ol>
+<h2 id="how-to-use">How to use</h2>
+<ol>
+<li>Clone this repository</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/JohnnyandLee/License_Plates_Recognition
+</span></span></code></pre></div><ol start="2">
+<li>Single-Threaded Training, Single-Threaded Recognition: run the main function of App.java(just run useThread(1))</li>
+<li>Multi-Threaded Training, Multi-Threaded Recognition: run the main function of App.java</li>
+<li>Single-Threaded Training, Multi-Threaded Recognition: run the main function of ALPR2.java</li>
+</ol>
+<h2 id="result">Result</h2>
+<h3 id="environment">Environment</h3>
+<ul>
+<li>Operating System: MacOS Sonoma 14.2</li>
+<li>CPU: Apple M1 Pro (10 cores, 3.22GHz)</li>
+<li>Profiling Tool: Intellij Profiler</li>
+</ul>
+<h3 id="single-threaded-training-single-threaded-recognition">Single-Threaded Training, Single-Threaded Recognition</h3>
+<p>Using the sample code from [2], we used single thread to train and recognize the test data(n = 30) at first. The result is as follows:</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Time(ms)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>49.05671660043299</td>
+</tr>
+<tr>
+<td>2</td>
+<td>46.057362500578165</td>
+</tr>
+<tr>
+<td>3</td>
+<td>48.585249999538064</td>
+</tr>
+<tr>
+<td>4</td>
+<td>47.26977499946952</td>
+</tr>
+<tr>
+<td>5</td>
+<td>46.15939580090344</td>
+</tr>
+<tr>
+<td>6</td>
+<td>47.3930583987385</td>
+</tr>
+<tr>
+<td>7</td>
+<td>47.39126249961555</td>
+</tr>
+<tr>
+<td>8</td>
+<td>47.2568790987134</td>
+</tr>
+<tr>
+<td>9</td>
+<td>51.24353750050068</td>
+</tr>
+<tr>
+<td>10</td>
+<td>50.26253329962492</td>
+</tr>
+<tr>
+<td>Average</td>
+<td>48.06757707</td>
+</tr>
+</tbody>
+</table>
+<h3 id="multi-threaded-training-multi-threaded-recognition-alprjava">Multi-Threaded Training, Multi-Threaded Recognition (ALPR.java)</h3>
+<p>With a brief understanding of how the single-threaded program works, we then started to parallelize the program using multi-threading and tried to find the best performance, and we got the following results:</p>
+<table>
+<thead>
+<tr>
+<th># of threads</th>
+<th>Time(ms)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>48.26430410146713</td>
+</tr>
+<tr>
+<td>2</td>
+<td>16.126074999570847</td>
+</tr>
+<tr>
+<td>3</td>
+<td>14.657600000500679</td>
+</tr>
+<tr>
+<td>5</td>
+<td>18.433133399114013</td>
+</tr>
+<tr>
+<td>6</td>
+<td>16.172600001096725</td>
+</tr>
+<tr>
+<td>10</td>
+<td>23.696162501350045</td>
+</tr>
+<tr>
+<td>15</td>
+<td>32.35087089985609</td>
+</tr>
+<tr>
+<td>30</td>
+<td>61.7450833003968</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/images/graph1.png" alt=""></p>
+<p>One key observation from the above graph is that there is a significant improvement using multi-threading in terms of performance, but as the number of threads gets larger, the run time also increases. Therefore, we used the profiler to do a thorough analysis.</p>
+<p>Flame graph using 2 threads:</p>
+<p><img src="/images/2threads.png" alt=""></p>
+<p>Flame graph using 30 threads:</p>
+<p><img src="/images/30threads.png" alt=""></p>
+<p>Comparing the above two graphs, we can see that using 30 threads will create a huge amount of overhead in ALPR.triain(), the model training process. Hence, we tried the following idea and it turned out to be the best result we can get.</p>
+<h3 id="single-threaded-training-multi-threaded-recognition-alpr2java">Single-Threaded Training, Multi-Threaded Recognition (ALPR2.java)</h3>
+<p>We found utilizing multiple threads for training the same font iteratively proved to be redundant and time-intensive.
+Finally, we decided to use one single thread to train the model to reduce the overhead while still using multi-threads to recognize the plates. The result is as follows:</p>
+<table>
+<thead>
+<tr>
+<th># of threads</th>
+<th>Time(ms)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>27.904991699382663</td>
+</tr>
+<tr>
+<td>2</td>
+<td>12.330941600725055</td>
+</tr>
+<tr>
+<td>3</td>
+<td>8.415737500414252</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5.632704200223088</td>
+</tr>
+<tr>
+<td>6</td>
+<td>5.021720798686147</td>
+</tr>
+<tr>
+<td>10</td>
+<td>4.205070799216628</td>
+</tr>
+<tr>
+<td>15</td>
+<td>5.060437500476837</td>
+</tr>
+<tr>
+<td>30</td>
+<td>4.273858400061727</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/images/graph3.png" alt=""></p>
+<p>The outcome indicates that the optimal approach for recognizing 30 license plates involves the utilization of 5-6 threads.</p>
+<h2 id="reference">Reference</h2>
+<p>The code was based on and derived from</p>
+<ul>
+<li>[1] Youtube channel: Oggi AI - Java image filter
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLj8W7XIvO93p1v-f_eSP3yDu4PVK9Pbrt">https://www.youtube.com/playlist?list=PLj8W7XIvO93p1v-f_eSP3yDu4PVK9Pbrt</a></li>
+</ul>
+</li>
+<li>[2] GitHub Page: Joe James
+<ul>
+<li><a href="https://github.com/joeyajames/Java/tree/master/ALPR">https://github.com/joeyajames/Java/tree/master/ALPR</a></li>
+<li><a href="https://github.com/joeyajames/Java/tree/master/Image%20Filters">https://github.com/joeyajames/Java/tree/master/Image%20Filters</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="contributors">Contributors</h2>
+<ul>
+<li>Kuan-Te (Johnny) Lee</li>
+<li>Yi-Ning (Kenny) Lin</li>
+<li>Yi-Hsuan (Ashley) Chen</li>
+</ul>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "johnnyandlee" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<script>
+  var indexURL = "https://johnnyandlee.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://johnnyandlee.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://johnnyandlee.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://johnnyandlee.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://johnnyandlee.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://johnnyandlee.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://johnnyandlee.github.io/plugins/search/mark.js"></script>
+
+<script src="https://johnnyandlee.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://johnnyandlee.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>
