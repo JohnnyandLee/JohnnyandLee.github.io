@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Johnny Lee Blog</title>
-    <link>https://johnnyandlee.github.io/</link>
-    <description>Recent content on Johnny Lee Blog</description>
+    <title>C&#43;&#43; on Johnny Lee Blog</title>
+    <link>https://johnnyandlee.github.io/categories/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Johnny Lee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Jan 2024 18:56:00 -0800</lastBuildDate>
-    <atom:link href="https://johnnyandlee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://johnnyandlee.github.io/categories/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Socket Programming</title>
       <link>https://johnnyandlee.github.io/blog/socket-programming/</link>
       <pubDate>Tue, 16 Jan 2024 18:56:00 -0800</pubDate>
       <guid>https://johnnyandlee.github.io/blog/socket-programming/</guid>
       <description>This project is implemented in C/C++ to build and develop 3 backend servers communicated by TCP and UDP, providing efficient and reliable data communication via socket programming.</description>
-    </item>
-    <item>
-      <title>License plate recognition with parallel computing</title>
-      <link>https://johnnyandlee.github.io/blog/license-plate-recognition/</link>
-      <pubDate>Wed, 10 Jan 2024 20:35:00 -0800</pubDate>
-      <guid>https://johnnyandlee.github.io/blog/license-plate-recognition/</guid>
-      <description>This project is implemented in Java to create a model that recognizes license plates in parallel.</description>
     </item>
   </channel>
 </rss>
