@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on Johnny Lee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jan 2024 19:42:00 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jan 2024 21:22:00 -0800</lastBuildDate>
     <atom:link href="https://johnnyandlee.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GRE</title>
+      <link>https://johnnyandlee.github.io/blog/gre/</link>
+      <pubDate>Thu, 18 Jan 2024 21:22:00 -0800</pubDate>
+      <guid>https://johnnyandlee.github.io/blog/gre/</guid>
+      <description>Section Score Verbal 153 Quantitative 170 Total 323 Although there are fewer and fewer universities taking GRE into account, this special journey still deserves to be shared.</description>
+    </item>
     <item>
       <title>React Memo App</title>
       <link>https://johnnyandlee.github.io/blog/react-memo/</link>

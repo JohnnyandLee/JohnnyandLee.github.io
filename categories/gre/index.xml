@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GRE on Johnny Lee Blog</title>
+    <link>https://johnnyandlee.github.io/categories/gre/</link>
+    <description>Recent content in GRE on Johnny Lee Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jan 2024 21:22:00 -0800</lastBuildDate>
+    <atom:link href="https://johnnyandlee.github.io/categories/gre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GRE</title>
+      <link>https://johnnyandlee.github.io/blog/gre/</link>
+      <pubDate>Thu, 18 Jan 2024 21:22:00 -0800</pubDate>
+      <guid>https://johnnyandlee.github.io/blog/gre/</guid>
+      <description>Section Score Verbal 153 Quantitative 170 Total 323 Although there are fewer and fewer universities taking GRE into account, this special journey still deserves to be shared.</description>
+    </item>
+  </channel>
+</rss>
