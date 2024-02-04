@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on Johnny Lee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jan 2024 21:22:00 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 04 Feb 2024 11:17:00 -0800</lastBuildDate>
     <atom:link href="https://johnnyandlee.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android Artist Information App</title>
+      <link>https://johnnyandlee.github.io/blog/android-artist-information/</link>
+      <pubDate>Sun, 04 Feb 2024 11:17:00 -0800</pubDate>
+      <guid>https://johnnyandlee.github.io/blog/android-artist-information/</guid>
+      <description>This project is implemented in Java (Android Studio) to create an app to let users query the artist&amp;rsquo;s information.</description>
+    </item>
     <item>
       <title>GRE</title>
       <link>https://johnnyandlee.github.io/blog/gre/</link>

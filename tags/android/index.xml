@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Java on Johnny Lee Blog</title>
-    <link>https://johnnyandlee.github.io/tags/java/</link>
-    <description>Recent content in Java on Johnny Lee Blog</description>
+    <title>Android on Johnny Lee Blog</title>
+    <link>https://johnnyandlee.github.io/tags/android/</link>
+    <description>Recent content in Android on Johnny Lee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Feb 2024 11:17:00 -0800</lastBuildDate>
-    <atom:link href="https://johnnyandlee.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://johnnyandlee.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android Artist Information App</title>
       <link>https://johnnyandlee.github.io/blog/android-artist-information/</link>
       <pubDate>Sun, 04 Feb 2024 11:17:00 -0800</pubDate>
       <guid>https://johnnyandlee.github.io/blog/android-artist-information/</guid>
       <description>This project is implemented in Java (Android Studio) to create an app to let users query the artist&amp;rsquo;s information.</description>
-    </item>
-    <item>
-      <title>License plate recognition with parallel computing</title>
-      <link>https://johnnyandlee.github.io/blog/license-plate-recognition/</link>
-      <pubDate>Wed, 10 Jan 2024 20:35:00 -0800</pubDate>
-      <guid>https://johnnyandlee.github.io/blog/license-plate-recognition/</guid>
-      <description>This project is implemented in Java to create a model that recognizes license plates in parallel.</description>
     </item>
   </channel>
 </rss>
