@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C# on Johnny Lee Blog</title>
+    <link>https://johnnyandlee.github.io/tags/c#/</link>
+    <description>Recent content in C# on Johnny Lee Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Mar 2024 13:48:00 -0700</lastBuildDate>
+    <atom:link href="https://johnnyandlee.github.io/tags/c#/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Greedy Snake Game</title>
+      <link>https://johnnyandlee.github.io/blog/greedy-snake/</link>
+      <pubDate>Wed, 27 Mar 2024 13:48:00 -0700</pubDate>
+      <guid>https://johnnyandlee.github.io/blog/greedy-snake/</guid>
+      <description>Greedy Snake Game This project is developed using C# within the Unity framework, is to design a game wherein players control a snake to consume apples and accumulate points.</description>
+    </item>
+  </channel>
+</rss>

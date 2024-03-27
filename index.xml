@@ -6,8 +6,15 @@
     <description>Recent content on Johnny Lee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Feb 2024 11:17:00 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 Mar 2024 13:48:00 -0700</lastBuildDate>
     <atom:link href="https://johnnyandlee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Greedy Snake Game</title>
+      <link>https://johnnyandlee.github.io/blog/greedy-snake/</link>
+      <pubDate>Wed, 27 Mar 2024 13:48:00 -0700</pubDate>
+      <guid>https://johnnyandlee.github.io/blog/greedy-snake/</guid>
+      <description>Greedy Snake Game This project is developed using C# within the Unity framework, is to design a game wherein players control a snake to consume apples and accumulate points.</description>
+    </item>
     <item>
       <title>Android Artist Information App</title>
       <link>https://johnnyandlee.github.io/blog/android-artist-information/</link>
