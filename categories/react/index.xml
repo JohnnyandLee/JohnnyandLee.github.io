@@ -6,8 +6,15 @@
     <description>Recent content in React on Johnny Lee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jan 2024 19:42:00 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 May 2024 09:21:00 -0700</lastBuildDate>
     <atom:link href="https://johnnyandlee.github.io/categories/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>React Artist Information</title>
+      <link>https://johnnyandlee.github.io/blog/react-artist-information/</link>
+      <pubDate>Thu, 02 May 2024 09:21:00 -0700</pubDate>
+      <guid>https://johnnyandlee.github.io/blog/react-artist-information/</guid>
+      <description>This project was bootstrapped with Create React App. Follow the steps below to set up the project.</description>
+    </item>
     <item>
       <title>React Memo App</title>
       <link>https://johnnyandlee.github.io/blog/react-memo/</link>
