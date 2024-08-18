@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Johnny Lee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Aug 2024 19:57:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 18 Aug 2024 13:11:00 -0700</lastBuildDate>
     <atom:link href="https://johnnyandlee.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>https://johnnyandlee.github.io/tags/java/</link>
+      <pubDate>Sun, 18 Aug 2024 13:11:00 -0700</pubDate>
+      <guid>https://johnnyandlee.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring Boot</title>
+      <link>https://johnnyandlee.github.io/tags/spring-boot/</link>
+      <pubDate>Sun, 18 Aug 2024 13:11:00 -0700</pubDate>
+      <guid>https://johnnyandlee.github.io/tags/spring-boot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL</title>
+      <link>https://johnnyandlee.github.io/tags/sql/</link>
+      <pubDate>Sun, 18 Aug 2024 13:11:00 -0700</pubDate>
+      <guid>https://johnnyandlee.github.io/tags/sql/</guid>
+      <description></description>
+    </item>
     <item>
       <title>CNN</title>
       <link>https://johnnyandlee.github.io/tags/cnn/</link>
@@ -62,13 +83,6 @@
       <link>https://johnnyandlee.github.io/tags/android/</link>
       <pubDate>Sun, 04 Feb 2024 11:17:00 -0800</pubDate>
       <guid>https://johnnyandlee.github.io/tags/android/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Java</title>
-      <link>https://johnnyandlee.github.io/tags/java/</link>
-      <pubDate>Sun, 04 Feb 2024 11:17:00 -0800</pubDate>
-      <guid>https://johnnyandlee.github.io/tags/java/</guid>
       <description></description>
     </item>
     <item>

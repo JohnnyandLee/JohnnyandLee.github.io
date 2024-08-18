@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Johnny Lee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Aug 2024 19:57:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 18 Aug 2024 13:11:00 -0700</lastBuildDate>
     <atom:link href="https://johnnyandlee.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>https://johnnyandlee.github.io/categories/java/</link>
+      <pubDate>Sun, 18 Aug 2024 13:11:00 -0700</pubDate>
+      <guid>https://johnnyandlee.github.io/categories/java/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Python</title>
       <link>https://johnnyandlee.github.io/categories/python/</link>
@@ -48,13 +55,6 @@
       <link>https://johnnyandlee.github.io/categories/c&#43;&#43;/</link>
       <pubDate>Tue, 16 Jan 2024 18:56:00 -0800</pubDate>
       <guid>https://johnnyandlee.github.io/categories/c&#43;&#43;/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Java</title>
-      <link>https://johnnyandlee.github.io/categories/java/</link>
-      <pubDate>Wed, 10 Jan 2024 20:35:00 -0800</pubDate>
-      <guid>https://johnnyandlee.github.io/categories/java/</guid>
       <description></description>
     </item>
   </channel>
