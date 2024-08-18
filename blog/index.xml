@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on Johnny Lee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 May 2024 09:21:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 17 Aug 2024 19:57:00 -0700</lastBuildDate>
     <atom:link href="https://johnnyandlee.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep Learning for Martian Terrain with Frost</title>
+      <link>https://johnnyandlee.github.io/blog/deep-learning-martian-terrain/</link>
+      <pubDate>Sat, 17 Aug 2024 19:57:00 -0700</pubDate>
+      <guid>https://johnnyandlee.github.io/blog/deep-learning-martian-terrain/</guid>
+      <description>Utilizing Python and TensorFlow for Deep Learning to detect frost in High-Resolution Imaging Science Experiment (HiRISE) images of Mars.</description>
+    </item>
     <item>
       <title>React Artist Information</title>
       <link>https://johnnyandlee.github.io/blog/react-artist-information/</link>

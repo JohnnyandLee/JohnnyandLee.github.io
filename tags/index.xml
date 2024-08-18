@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Johnny Lee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 May 2024 09:21:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 17 Aug 2024 19:57:00 -0700</lastBuildDate>
     <atom:link href="https://johnnyandlee.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CNN</title>
+      <link>https://johnnyandlee.github.io/tags/cnn/</link>
+      <pubDate>Sat, 17 Aug 2024 19:57:00 -0700</pubDate>
+      <guid>https://johnnyandlee.github.io/tags/cnn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Learning</title>
+      <link>https://johnnyandlee.github.io/tags/deep-learning/</link>
+      <pubDate>Sat, 17 Aug 2024 19:57:00 -0700</pubDate>
+      <guid>https://johnnyandlee.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://johnnyandlee.github.io/tags/python/</link>
+      <pubDate>Sat, 17 Aug 2024 19:57:00 -0700</pubDate>
+      <guid>https://johnnyandlee.github.io/tags/python/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Node.js</title>
       <link>https://johnnyandlee.github.io/tags/node.js/</link>

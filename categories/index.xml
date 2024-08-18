@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Johnny Lee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 May 2024 09:21:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 17 Aug 2024 19:57:00 -0700</lastBuildDate>
     <atom:link href="https://johnnyandlee.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>https://johnnyandlee.github.io/categories/python/</link>
+      <pubDate>Sat, 17 Aug 2024 19:57:00 -0700</pubDate>
+      <guid>https://johnnyandlee.github.io/categories/python/</guid>
+      <description></description>
+    </item>
     <item>
       <title>React</title>
       <link>https://johnnyandlee.github.io/categories/react/</link>
