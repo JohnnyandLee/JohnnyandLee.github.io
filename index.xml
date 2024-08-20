@@ -6,12 +6,19 @@
     <description>Recent content on Johnny Lee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Aug 2024 13:11:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 31 Jul 2024 18:56:00 -0800</lastBuildDate>
     <atom:link href="https://johnnyandlee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Socket Programming</title>
+      <link>https://johnnyandlee.github.io/blog/socket-programming/</link>
+      <pubDate>Wed, 31 Jul 2024 18:56:00 -0800</pubDate>
+      <guid>https://johnnyandlee.github.io/blog/socket-programming/</guid>
+      <description>This project is implemented in C/C++ to build and develop 3 backend servers communicated by TCP and UDP, providing efficient and reliable data communication via socket programming.</description>
+    </item>
     <item>
       <title>E-Commerce Backend System</title>
       <link>https://johnnyandlee.github.io/blog/e-commerce-backend-system/</link>
-      <pubDate>Sun, 18 Aug 2024 13:11:00 -0700</pubDate>
+      <pubDate>Wed, 10 Jul 2024 13:11:00 -0700</pubDate>
       <guid>https://johnnyandlee.github.io/blog/e-commerce-backend-system/</guid>
       <description>Description This project uses Java Spring Boot and connects to a MySQL database.</description>
     </item>
@@ -56,13 +63,6 @@
       <pubDate>Wed, 17 Jan 2024 19:42:00 -0800</pubDate>
       <guid>https://johnnyandlee.github.io/blog/react-memo/</guid>
       <description>This project uses Node.js and React.js and connects to a json-server database.</description>
-    </item>
-    <item>
-      <title>Socket Programming</title>
-      <link>https://johnnyandlee.github.io/blog/socket-programming/</link>
-      <pubDate>Tue, 16 Jan 2024 18:56:00 -0800</pubDate>
-      <guid>https://johnnyandlee.github.io/blog/socket-programming/</guid>
-      <description>This project is implemented in C/C++ to build and develop 3 backend servers communicated by TCP and UDP, providing efficient and reliable data communication via socket programming.</description>
     </item>
     <item>
       <title>License plate recognition with parallel computing</title>

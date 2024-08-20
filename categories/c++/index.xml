@@ -6,12 +6,12 @@
     <description>Recent content in C&#43;&#43; on Johnny Lee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jan 2024 18:56:00 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 31 Jul 2024 18:56:00 -0800</lastBuildDate>
     <atom:link href="https://johnnyandlee.github.io/categories/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Socket Programming</title>
       <link>https://johnnyandlee.github.io/blog/socket-programming/</link>
-      <pubDate>Tue, 16 Jan 2024 18:56:00 -0800</pubDate>
+      <pubDate>Wed, 31 Jul 2024 18:56:00 -0800</pubDate>
       <guid>https://johnnyandlee.github.io/blog/socket-programming/</guid>
       <description>This project is implemented in C/C++ to build and develop 3 backend servers communicated by TCP and UDP, providing efficient and reliable data communication via socket programming.</description>
     </item>

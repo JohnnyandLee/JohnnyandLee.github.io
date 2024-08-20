@@ -6,26 +6,54 @@
     <description>Recent content in Tags on Johnny Lee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Aug 2024 13:11:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 31 Jul 2024 18:56:00 -0800</lastBuildDate>
     <atom:link href="https://johnnyandlee.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://johnnyandlee.github.io/tags/c&#43;&#43;/</link>
+      <pubDate>Wed, 31 Jul 2024 18:56:00 -0800</pubDate>
+      <guid>https://johnnyandlee.github.io/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Socket</title>
+      <link>https://johnnyandlee.github.io/tags/socket/</link>
+      <pubDate>Wed, 31 Jul 2024 18:56:00 -0800</pubDate>
+      <guid>https://johnnyandlee.github.io/tags/socket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TCP</title>
+      <link>https://johnnyandlee.github.io/tags/tcp/</link>
+      <pubDate>Wed, 31 Jul 2024 18:56:00 -0800</pubDate>
+      <guid>https://johnnyandlee.github.io/tags/tcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UDP</title>
+      <link>https://johnnyandlee.github.io/tags/udp/</link>
+      <pubDate>Wed, 31 Jul 2024 18:56:00 -0800</pubDate>
+      <guid>https://johnnyandlee.github.io/tags/udp/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Java</title>
       <link>https://johnnyandlee.github.io/tags/java/</link>
-      <pubDate>Sun, 18 Aug 2024 13:11:00 -0700</pubDate>
+      <pubDate>Wed, 10 Jul 2024 13:11:00 -0700</pubDate>
       <guid>https://johnnyandlee.github.io/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring Boot</title>
       <link>https://johnnyandlee.github.io/tags/spring-boot/</link>
-      <pubDate>Sun, 18 Aug 2024 13:11:00 -0700</pubDate>
+      <pubDate>Wed, 10 Jul 2024 13:11:00 -0700</pubDate>
       <guid>https://johnnyandlee.github.io/tags/spring-boot/</guid>
       <description></description>
     </item>
     <item>
       <title>SQL</title>
       <link>https://johnnyandlee.github.io/tags/sql/</link>
-      <pubDate>Sun, 18 Aug 2024 13:11:00 -0700</pubDate>
+      <pubDate>Wed, 10 Jul 2024 13:11:00 -0700</pubDate>
       <guid>https://johnnyandlee.github.io/tags/sql/</guid>
       <description></description>
     </item>
@@ -83,34 +111,6 @@
       <link>https://johnnyandlee.github.io/tags/android/</link>
       <pubDate>Sun, 04 Feb 2024 11:17:00 -0800</pubDate>
       <guid>https://johnnyandlee.github.io/tags/android/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>C&#43;&#43;</title>
-      <link>https://johnnyandlee.github.io/tags/c&#43;&#43;/</link>
-      <pubDate>Tue, 16 Jan 2024 18:56:00 -0800</pubDate>
-      <guid>https://johnnyandlee.github.io/tags/c&#43;&#43;/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Socket</title>
-      <link>https://johnnyandlee.github.io/tags/socket/</link>
-      <pubDate>Tue, 16 Jan 2024 18:56:00 -0800</pubDate>
-      <guid>https://johnnyandlee.github.io/tags/socket/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>TCP</title>
-      <link>https://johnnyandlee.github.io/tags/tcp/</link>
-      <pubDate>Tue, 16 Jan 2024 18:56:00 -0800</pubDate>
-      <guid>https://johnnyandlee.github.io/tags/tcp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>UDP</title>
-      <link>https://johnnyandlee.github.io/tags/udp/</link>
-      <pubDate>Tue, 16 Jan 2024 18:56:00 -0800</pubDate>
-      <guid>https://johnnyandlee.github.io/tags/udp/</guid>
       <description></description>
     </item>
     <item>

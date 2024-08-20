@@ -6,12 +6,12 @@
     <description>Recent content in Java on Johnny Lee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Aug 2024 13:11:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 13:11:00 -0700</lastBuildDate>
     <atom:link href="https://johnnyandlee.github.io/categories/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>E-Commerce Backend System</title>
       <link>https://johnnyandlee.github.io/blog/e-commerce-backend-system/</link>
-      <pubDate>Sun, 18 Aug 2024 13:11:00 -0700</pubDate>
+      <pubDate>Wed, 10 Jul 2024 13:11:00 -0700</pubDate>
       <guid>https://johnnyandlee.github.io/blog/e-commerce-backend-system/</guid>
       <description>Description This project uses Java Spring Boot and connects to a MySQL database.</description>
     </item>
